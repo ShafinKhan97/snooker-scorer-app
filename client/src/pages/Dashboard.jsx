@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Grid,
@@ -6,7 +5,6 @@ import {
   Typography,
   Box,
   Card,
-  CardContent,
   Button,
   useTheme,
   useMediaQuery,
@@ -15,7 +13,6 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import HistoryIcon from "@mui/icons-material/History";
-import PersonIcon from "@mui/icons-material/Person";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 const Dashboard = () => {
