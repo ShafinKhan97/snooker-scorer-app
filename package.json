@@ -1,0 +1,25 @@
+{
+  "name": "snooker-scorer-modern",
+  "version": "1.0.0",
+  "description": "Modern Snooker Scoring App with MERN Stack",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm install && npm run install-server && npm run install-client",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "snooker",
+    "mern",
+    "scoring",
+    "modern"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
